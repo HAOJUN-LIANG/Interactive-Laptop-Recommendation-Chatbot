@@ -19,6 +19,39 @@ For detailed instructions, please refer to the **User Guide** section in the **F
 
 ---
 
+### Installation & Setup
+
+Follow these steps to clone and set up the project:
+
+#### Step 1: Clone the Repository
+```
+git clone https://github.com/HAOJUN-LIANG/Interactive-Laptop-Recommendation-Chatbot.git
+cd Interactive-Laptop-Recommendation-Chatbot-main
+```
+
+#### Step 2: Create and Activate a Virtual Environment
+```
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate  # Windows
+```
+
+#### Step 3: Fill in Your API Key
+To ensure the proper functionality of the application, you need to fill in your API key.
+
+#### Step 4: Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+#### Step 5: Run the Flask Server
+```
+python app.py
+```
+Access the chatbot at: ```http://127.0.0.1:5000/```
+
+---
+
 ### System Architecture
 
 This chatbot is a **Flask-based AI system** that integrates:
@@ -31,7 +64,7 @@ This chatbot is a **Flask-based AI system** that integrates:
 
 ### Project Structure
 ```
-Interactive_Laptop_Recommendation_Chatbot/
+Interactive Laptop Recommendation Chatbot/
 ├── Image recognition datasets for laptops/
 ├── templates/
 │   ├── index.html
@@ -49,36 +82,6 @@ Interactive_Laptop_Recommendation_Chatbot/
 ├── requirements.txt
 └── test.py
 ```
-
----
-
-### Installation & Setup
-
-Follow these steps to clone and set up the project:
-
-#### Step 1: Clone the Repository
-```
-git clone https://github.com/HAOJUN-LIANG/Interactive-Laptop-Recommendation-Chatbot.git
-cd Interactive_Laptop_Recommendation_Chatbot
-```
-
-#### Step 2: Create and Activate a Virtual Environment
-```
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate  # Windows
-```
-
-#### Step 3: Install Dependencies
-```
-pip install -r requirements.txt
-```
-
-#### Step 4: Run the Flask Server
-```
-python app.py
-```
-Access the chatbot at: ```http://127.0.0.1:5000/```
 
 ---
 
