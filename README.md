@@ -37,7 +37,13 @@ venv\Scripts\activate  # Windows
 ```
 
 #### Step 3: Fill in Your API Key
-To ensure the proper functionality of the application, you need to fill in your API key.
+To ensure the proper functionality of the application, you need to fill in your API key in ```app.py```.
+```
+# API Configuration
+API_KEY = "" # FILL IN YOUR OWN API KEY HERE
+client = OpenAI(api_key=API_KEY)
+```
+
 
 #### Step 4: Install Dependencies
 ```
