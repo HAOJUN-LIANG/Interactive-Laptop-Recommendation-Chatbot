@@ -15,7 +15,7 @@ The **Interactive Laptop Recommendation Chatbot** is an AI-driven assistant that
 ---
 
 ### Project Demo
-For detailed instructions, please refer to the **User Guide** section in the **Final Report**.
+For detailed instructions, see the **User's Guide** section in the `Final Report.pdf`, or watch the `demo.mp4`
 
 ---
 
@@ -37,7 +37,7 @@ venv\Scripts\activate  # Windows
 ```
 
 #### Step 3: Fill in Your API Key
-To ensure the proper functionality of the application, you need to fill in your API key in ```app.py```.
+To ensure the proper functionality of the application, you need to fill in your API key in `app.py`.
 ```
 # API Configuration
 API_KEY = "" # FILL IN YOUR OWN API KEY HERE
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-Access the chatbot at: ```http://127.0.0.1:5000/```
+Access the chatbot at: `http://127.0.0.1:5000/`
 
 ---
 
@@ -78,12 +78,14 @@ Interactive Laptop Recommendation Chatbot/
 │   └── result.html
 ├── app.py
 ├── categorize.py
+├── demo.mp4
 ├── chat_history.db
 ├── Final Report.pdf
 ├── laptop_advisor.db
 ├── laptop_recommendations_2.db
 ├── laptop_recommendations_3.db
 ├── laptop_recommendations_4.db
+├── Presentation Slides.pdf
 ├── README.md
 ├── requirements.txt
 └── test.py
