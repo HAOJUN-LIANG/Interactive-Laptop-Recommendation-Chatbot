@@ -32,7 +32,6 @@ This chatbot is a **Flask-based AI system** that integrates:
 ### Project Structure
 ```
 Interactive_Laptop_Recommendation_Chatbot/
-├── ai/
 ├── Image recognition datasets for laptops/
 ├── templates/
 │   ├── index.html
