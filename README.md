@@ -78,8 +78,8 @@ Interactive Laptop Recommendation Chatbot/
 │   └── result.html
 ├── app.py
 ├── categorize.py
-├── demo.mp4
 ├── chat_history.db
+├── demo.mp4
 ├── Final Report.pdf
 ├── laptop_advisor.db
 ├── laptop_recommendations_2.db
